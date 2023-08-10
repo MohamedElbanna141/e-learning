@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/siteStyle.css">
+</head>
+<body>
+
+    <!-- ----------------- main manu --------------- -->
+
+    <div id="main-menu">
+        <div id="menu-logo">
+            <img src="img/learning.png">
+            <h1 class="menu-name">3lemny</h1>
+        </div>
+        <div id="menu-items">
+            <div><a href="#about-banner" id="home-menu" onclick="colored('home-menu')">HOME</a></div>
+            <div><a href="#courses" id="courses-menu" onclick="colored('courses-menu')">COURSES</a></div>
+            <div><a href="#instructors" id="teachers-menu" onclick="colored('teachers-menu')">TEACHERS</a></div>
+        </div>
+        <div id="menu-social-icons">
+            <a href="signUp-In.html" style="text-decoration: none;"><h3 id="signUp" onclick="signUpAppear()">Sign Up</h3></a>
+            <a href="signUp-In.html" style="text-decoration: none;"><h3 id="signIn" onclick="signInAppear()">Sign In</h3></a>
+        </div>
+    </div>
+
+    <!-- ----------------- up to page top ------------ -->
+
+    <div id="upToPageTop">
+        <a href="#about-banner"><i class="fa-solid fa-angles-up" onclick="colored('home-menu')"></i></a>
+    </div>
+
+    <!-- ----------------- main banner --------------- -->
+
+    <section id="about-banner">
+        <div id="banner-title">
+            Experience<br>the joy of learning
+        </div>
+    </section>
+
+    <!-- ----------------- our story section --------------- -->
+
+    <section id="our-story">
+        <h1>OUR STORY</h1>
+        <p>
+            3lemny is a leading publishing platform that delivers inspiring, industry-specific content to eLearning professionals.Back in 2012, when eLearning software and its delivery methods were just beginning to take off, our founder, Christopher Pappas, identified a growing niche and set out to build a fully democratized digital network that would disrupt the eLearning status quo for better and forever. Since then, our eLearning family has been constantly growing, working tirelessly to stay true to our mission.
+        </p>
+    </section>
+
+    <!-- -------------- our videos ------------------------ -->
+
+    <section id="our-video">
+        <h2>Discover</h2>
+        <h1 style="color: white">OUR VIDEO</h1>
+        <div class="playVideoButton">
+            <i class="fa-solid fa-play"
+                style="font-size: 20px; margin-left: 4px;">
+            </i>
+        </div>
+    </section>
+
+    <!-- -------------- RECIPES -------------------------- -->
+
+    <section id="r">
+        <div id="rText">
+            <h2>Our</h2>
+            <h1>Purpose</h1>
+            <p>
+                Connect the dots between helping eLearning companies find the ideal leads, and guiding corporate training buyers to the solutions that match their needs.
+            </p>
+        </div>
+        <div id="rImage">
+            <div>
+                <div class="imgCoverRed">
+                    <i class="fa-solid fa-magnifying-glass-plus"></i>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="r">
+
+        <div id="resImage" >
+            <div>
+                <div class="imgCoverRed">
+                    <i class="fa-solid fa-magnifying-glass-plus"></i>
+                </div>
+            </div>
+        </div>
+        <div id="rText">
+            <h2>Who</h2>
+            <h1>we are</h1>
+            <p>
+                We are believers in the power of Learning and Development and the power of sharing.
+            </p>
+        </div>
+        
+    </section>
+
+    <!-- -----------------------space------------------ -->
+
+    <section id="space">
+    </section>
+
+    <!-- ------------------ courses ------------------------- -->
+
+    <section class="instructors" id="courses">
+        <h2>our</h2>
+        <h1>Courses</h1>
+        <div class="instructorCards">
+            <i class="fa-solid fa-chevron-left" id="previous"></i>
+            <div class="oneinstructorCard">
+                <div class="courseCardPic" style="background-image: url(img/front\ end.jpg);background-repeat: no-repeat;  background-size: cover;"></div>
+                <br><br><br><br><br><br><br><br><br><br><br>
+                <h2>
+                    Front-End
+                </h2>
+            </div>
+    
+            <div class="oneinstructorCard">
+                <div class="courseCardPic"></div>
+                <br><br><br><br><br><br><br><br><br><br><br>
+                <h2>
+                    Marketing
+                </h2>
+            </div>
+    
+            <div class="oneinstructorCard">
+                <div class="courseCardPic" style="background-image: url(img/full\ stack.jpg); background-repeat: no-repeat;  background-size: cover; background-position: center;"></div>
+                <br><br><br><br><br><br><br><br><br><br><br>
+                <h2>
+                    Full-Stack
+                </h2>
+            </div>
+            <i class="fa-solid fa-chevron-right" id="next" onclick="next()"></i>
+        </div>
+    </section>
+    
+
+   <!-- ------------------- instructors --------------------- -->
+
+   <section class="instructors" id="instructors">
+    <h2>meet</h2>
+    <h1>Instructors</h1>
+    <div class="instructorCards">
+        <div class="oneinstructorCard">
+            <div class="instructorCardPic" style="background-image: url(img/teacher1.jpg);background-repeat: no-repeat; background-size: contain;"></div>
+            <h3>
+                Peter Martin
+            </h3>
+            <h4 style="color: #999; font-weight:normal;">
+                Sales Instructor
+            </h4><br><br>
+            <p>
+                Experience in a sales position, including <br> in-person activities and web-based <br> learning.
+            </p>
+        </div>
+
+        <div class="oneinstructorCard">
+            <div class="instructorCardPic"></div>
+            <h3>
+                Jennifer Bowman
+            </h3>
+            <h4 style="color: #999; font-weight:normal;">
+                Marketing Instructor
+            </h4><br><br>
+            <p>
+                One of the best marketing trainers in the world with the best seller course <br> in the last year.</p>
+        </div>
+
+        <div class="oneinstructorCard">
+            <div class="instructorCardPic" style="background-image: url(img/teacher3.jpg);"></div>
+            <h3>
+                Albert Hart
+            </h3>
+            <h4 style="color: #999; font-weight:normal;">
+                Full-Stack Instructor
+            </h4><br><br>
+            <p>
+                A professional full-stack developer with over 20 years of experience working with <br> A class companies like Google.  
+            </p>
+        </div>
+    </div>
+</section>
+
+
+
+    <!-- ---------------------------footer-------------------------- -->
+
+    <footer id="page-footer">
+        
+        <div>
+            <p class="follow">Do not miss the chance and follow us</p>
+        </div>
+        <i class="fa-brands fa-facebook-f"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-linkedin"></i>
+    </footer>
+
+
+    <script src="js/home.js"></script>
+    <script src="js/sign.js"></script>
+</body>
+</html>
